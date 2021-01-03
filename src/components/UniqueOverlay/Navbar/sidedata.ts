@@ -36,17 +36,4 @@ export const SidebarData: { title: string, cName: string }[] = [
     title: "COMMERCIAL SOLAR",
     cName: "nav-text",
   },
-
-  {
-    title: "TEST DRIVE",
-    cName: "nav-text",
-  },
-  {
-    title: "FIND US",
-    cName: "nav-text",
-  },
-  {
-    title: "UNITED STATES",
-    cName: "nav-text",
-  },
 ];
