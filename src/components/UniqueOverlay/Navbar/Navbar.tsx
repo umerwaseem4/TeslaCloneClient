@@ -22,14 +22,14 @@ function Navbar() {
         <nav className={sidebar ? 'nav-menu active' : 'nav-menu'}>
           <ul className='nav-menu-items' onClick={showSidebar}>
             <li className='navbar-toggle'>
-              <a  href='#' className='menu-bars'>
+              <a  href='#' className='menu-bars-cross'>
                 <AiIcons.AiOutlineClose />
               </a>
             </li>
             {SidebarData.map((item: any, index: number) => {
               return (
                 <li key={index} className={item.cName}>
-                  <a  href={item.path}>
+                  <a href={item.path}>
                     {item.icon}
                     <span>{item.title}</span>
                   </a>

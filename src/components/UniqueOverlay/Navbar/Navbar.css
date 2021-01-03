@@ -9,6 +9,14 @@
 .menu-bars {
   margin-left: 2rem;
   font-size: 2rem;
+  float: right;
+  background: none;
+}
+
+.menu-bars-cross {
+  margin-left: 2rem;
+  font-size: 1.2rem;
+  float: right;
   background: none;
 }
 
@@ -36,6 +44,7 @@
   padding: 8px 0px 8px 16px;
   list-style: none;
   height: 60px;
+  cursor: pointer;
 }
 
 .nav-text a {
