@@ -93,4 +93,7 @@ span {
   .nav-text {
     padding: 6px 0px 6px 13px;
   }
+  .menu-bars-cross {
+    margin-left: 13rem;
+  }
 }
