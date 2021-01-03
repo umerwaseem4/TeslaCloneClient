@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import * as AiIcons from 'react-icons/ai';
 import {GoThreeBars} from "react-icons/go"
-import { SidebarData } from './sidedata';
+import  {SidebarData}  from './sidedata';
 import './Navbar.css';
 import { IconContext } from 'react-icons';
 import "./Navbar.css"
@@ -26,7 +26,7 @@ function Navbar() {
                 <AiIcons.AiOutlineClose />
               </a>
             </li>
-            {SidebarData.map((item: any, index: any) => {
+            {SidebarData.map((item: any, index: number) => {
               return (
                 <li key={index} className={item.cName}>
                   <a  href={item.path}>

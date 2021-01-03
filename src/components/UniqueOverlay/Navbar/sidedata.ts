@@ -1,6 +1,6 @@
 import React from "react";
 
-export const SidebarData = [
+export const SidebarData: { title: string, cName: string }[] = [
   {
     title: "Existing Inventory",
     cName: "nav-text",

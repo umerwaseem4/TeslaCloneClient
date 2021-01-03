@@ -71,3 +71,17 @@
 span {
   margin-left: 16px;
 }
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .nav-menu {
+    width: 250px;
+    height: 100vh;
+  }
+  .nav-text a {
+    font-size: 14px;
+    padding: 8px 0px 8px 16px;
+  }
+  .nav-text {
+    padding: 6px 0px 6px 13px;
+  }
+}
