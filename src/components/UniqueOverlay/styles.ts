@@ -26,6 +26,8 @@ export const Header = styled.header`
 
 export const Logo = styled(LogoSVG)`
   height: 17px;
+  display: flex;
+  flex-direction: column;
   width: 10%;
   cursor: pointer;
 `

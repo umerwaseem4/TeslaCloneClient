@@ -36,7 +36,7 @@ export const Buttons = styled.div`
   margin-bottom: 130px;
 
   > button {
-    background: #1a1720;
+    background: #171a20;
     color: #fff;
     opacity: 0.8;
 
@@ -45,7 +45,7 @@ export const Buttons = styled.div`
     letter-spacing: 0.4px;
     text-transform: uppercase;
 
-    padding: 13px 40px;
+    padding: 13px 6rem;
     border-radius: 20px;
     border: none;
     outline: 0;

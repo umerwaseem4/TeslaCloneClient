@@ -4,6 +4,8 @@
   height: 0px;
   cursor: pointer;
   padding-right: 5px;
+  display: flex;
+  justify-content: end;
 }
 
 .menu-bars {

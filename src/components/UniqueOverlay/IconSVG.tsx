@@ -1,6 +1,18 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 
 export const LogoSVG: React.FC = ({ ...props }) => {
+  const [show, setShow] = useState(true);
+  console.log(show);
+
+  useEffect(() => {
+    window.addEventListener("scroll", () => {
+      if (window.scrollY > 100) {
+        setShow(false);
+      } else {
+        setShow(true);
+      }
+    });
+  }, []);
   return (
     <a href="/#">
       <img
