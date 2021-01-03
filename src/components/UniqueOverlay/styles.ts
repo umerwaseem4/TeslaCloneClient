@@ -41,6 +41,7 @@ export const Footer = styled(motion.footer)`
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    padding-top: 100px;
 
     li {
       list-style: none;
@@ -74,5 +75,17 @@ export const Footer = styled(motion.footer)`
         margin: 0 0 0 30px;
       }
     }
+  }
+
+  @media (min-width: 320px) and (max-width: 480px) {
+    margin-bottom: 38px;
+
+    ul {
+      flex-direction: row;
+      li + li {
+        margin: 0 0 0 30px;
+      }
+    }
+    
   }
 `

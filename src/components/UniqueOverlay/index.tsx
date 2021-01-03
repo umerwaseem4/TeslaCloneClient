@@ -1,17 +1,17 @@
-import React from 'react'
-import { useTransform } from 'framer-motion'
+import React from "react";
+import { useTransform } from "framer-motion";
 
-import { useWrapperScroll } from '../Model'
+import { useWrapperScroll } from "../Model";
 
-import { Container, Header, Logo, Footer } from './styles'
+import { Container, Header, Logo, Footer } from "./styles";
 
-// importing navbar 
-import Navbar from "../UniqueOverlay/Navbar/Navbar"
+// importing navbar
+import Navbar from "../UniqueOverlay/Navbar/Navbar";
 
 const UniqueOverlay: React.FC = () => {
-  const { scrollYProgress } = useWrapperScroll()
+  const { scrollYProgress } = useWrapperScroll();
 
-  const opacity = useTransform(scrollYProgress, [0.9, 1], [0, 1])
+  const opacity = useTransform(scrollYProgress, [0.9, 1], [0, 1]);
 
   return (
     <Container>
@@ -31,19 +31,10 @@ const UniqueOverlay: React.FC = () => {
           <li>
             <a href="/">Legal Contact</a>
           </li>
-          <li>
-            <a href="/">Shop</a>
-          </li>
-          <li>
-            <a href="/">Newsletter</a>
-          </li>
-          <li>
-            <a href="/">News</a>
-          </li>
         </ul>
       </Footer>
     </Container>
-  )
-}
+  );
+};
 
-export default UniqueOverlay
+export default UniqueOverlay;

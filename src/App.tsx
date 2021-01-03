@@ -1,8 +1,8 @@
-import React from 'react'
+import React from "react";
 
-import Page from './components/Page'
+import Page from "./components/Page";
 
-import { GlobalStyles } from './styles/GlobalStyles'
+import { GlobalStyles } from "./styles/GlobalStyles";
 
 function App() {
   return (
@@ -10,7 +10,7 @@ function App() {
       <Page />
       <GlobalStyles />
     </>
-  )
+  );
 }
 
-export default App
+export default App;
