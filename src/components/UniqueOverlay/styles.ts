@@ -1,5 +1,5 @@
 import styled from 'styled-components'
-import { LogoSVG, BurgerSVG } from './IconSVG'
+import { LogoSVG } from './IconSVG'
 import { motion } from 'framer-motion'
 
 export const Container = styled.div`

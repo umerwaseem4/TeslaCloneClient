@@ -23,22 +23,22 @@ const UniqueOverlay: React.FC = () => {
       <Footer style={{ opacity }}>
         <ul>
           <li>
-            <a href="#">Tesla 2021</a>
+            <a href="/">Tesla 2021</a>
           </li>
           <li>
-            <a href="#">Privacy</a>
+            <a href="/">Privacy</a>
           </li>
           <li>
-            <a href="#">Legal Contact</a>
+            <a href="/">Legal Contact</a>
           </li>
           <li>
-            <a href="#">Shop</a>
+            <a href="/">Shop</a>
           </li>
           <li>
-            <a href="#">Newsletter</a>
+            <a href="/">Newsletter</a>
           </li>
           <li>
-            <a href="#">News</a>
+            <a href="/">News</a>
           </li>
         </ul>
       </Footer>
